@@ -1,0 +1,119 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.bb {
+  height: 10vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+}
+.logo:hover {
+  opacity: 0.8;
+  transition: all 0.7s;
+}
+.linkscont {
+  margin-top: 17px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linkscont li {
+  list-style: none;
+  margin: 3px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+.linkscont li:hover {
+  transition: all 0.5s;
+  opacity: 0.8;
+}
+@media screen and (min-width: 768px) {
+  .bb {
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+  }
+  .logo:hover {
+    opacity: 0.8;
+    transition: all 0.7s;
+  }
+  .linkscont {
+    margin-top: 17px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .linkscont li {
+    list-style: none;
+    margin: 3px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  .linkscont li:hover {
+    transition: all 0.5s;
+    opacity: 0.8;
+  }
+  .show {
+    display: none;
+  }
+  .hidesidemenu {
+    border: 2px solid red;
+  }
+}
+@media screen and (max-width: 992px) {
+  .linkscont {
+    width: 42%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bb {
+    display: block;
+  }
+  .show {
+    display: inline !important;
+    font-size: larger;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+  }
+  .linkscont {
+    display: none;
+  }
+  .hidesidemenu {
+    /* display: none !important; */
+  }
+  .showsidemenu {
+    /* display: block;
+    border: 2px solid red; */
+  }
+
+  .hidebtn {
+    display: none;
+  }
+}
+.image {
+  height: 96vh;
+  padding: 0%;
+  width: 30%;
+
+  width: 100%;
+  background-image: url("../Images/hero.svg");
+  background-size: cover;
+}
+.hero {
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+}

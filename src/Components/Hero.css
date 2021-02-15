@@ -1,0 +1,67 @@
+.herobody {
+  width: 37%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.herobody h1 {
+  font-size: 65px;
+}
+.btn1 {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: none;
+  font-size: 22px;
+  /* margin-left: 15px; */
+  margin-right: 5px;
+  width: 130px;
+}
+.btn2 {
+  border: none;
+  background-color: beige;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 22px;
+  /* margin-left: 10px; */
+  width: 160px;
+}
+.btn1:hover {
+  opacity: 0.9;
+  transition: all 0.5s;
+}
+.phone {
+  width: 35%;
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  z-index: 0;
+  /* background-image: url("../Images/phone.svg");
+  background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
+@media screen and (max-width: 992px) {
+  .herobody h1 {
+    font-size: 50px;
+  }
+  .ntn1 {
+    margin-left: 10px;
+  }
+  .phone {
+    left: 55%;
+  }
+}
+@media screen and (max-width: 786px) {
+  .herobody {
+  }
+}
+@media screen and (max-width: 768px) {
+  .herobody {
+    width: 60%;
+    left: 22%;
+  }
+  .phone {
+    display: none;
+  }
+}
